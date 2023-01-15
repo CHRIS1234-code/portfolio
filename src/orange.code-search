@@ -1,0 +1,44 @@
+# Query: orange
+# ContextLines: 1
+
+9 results - 6 files
+
+
+src/App.css:
+   3    --yellow: #F5C32C;
+   4:     --blue : #5877f4;
+   5      --black : #242D49;
+
+   9      --boxShadow : 0px 19px 60px rgb(0 0 0 / 8%);
+  10:     --orangeCard: rgba(252, 166, 31, 0.45);
+  11      --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+
+  33    cursor: pointer;
+  34:   border: 1px solid var(--blue);
+  35:   color: var(--blue);
+  36  }
+
+src/components/Card/Card.css:
+  12      background: rgba(255, 255, 255, 0.26);
+  13:     border: 7px solid var(--orangeCard);
+  14      box-shadow: var(--boxShadow);
+
+src/components/Experience/Experience.css:
+  42    .achievement span:nth-of-type(2){
+  43:       color: var(--blue);
+  44    }
+
+src/components/Intro/Intro.css:
+  27  .i-name >:nth-child(2){
+  28:     color: var(--blue);
+  29      font-weight: bold;
+
+src/components/Navbar/Navbar.css:
+  40      cursor: pointer;
+  41:     color: var(--blue);
+  42  }
+
+src/components/services/Services.css:
+  22  .amazing > :nth-child(2) {
+  23:     color: var(--blue);
+  24      font-size: 2.5rem;
